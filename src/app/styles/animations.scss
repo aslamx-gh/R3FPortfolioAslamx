@@ -1,0 +1,25 @@
+// Styling for animations and scroll reveal effects
+@use "./variables";
+
+// Scroll Reveal Animation
+    .scroll-reveal {
+        position: absolute;
+        // top: 50%;
+        margin: 20px;
+            
+        .scroll-reveal-text {
+            font-size: clamp(2.6rem, 4vw, 4rem);
+            line-height: 1.5;
+            font-weight: 600;
+        }
+            
+        .word {
+            display: inline-block;
+            color: gray;
+        }
+}
+
+
+
+
+// --- END ---
