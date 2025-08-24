@@ -24,21 +24,27 @@ This project serves as both a **personal portfolio** and a **reference playgroun
 ```bash
 git clone https://github.com/<USERNAME>/<REPO>.git
 cd <REPO>
+```
 
 ### 2. Install dependencies
+```bash
 npm install
+```
 
 ### 3. Run the development server
+```bash
 npm run dev
 Then open "http://localhost:3000" in your browser.
+```
 
 ## 📦 Build for production
-
+```bash
 npm run build
 npm start
+```
 
 ## 🗂️ Project Structure
-
+```bash
 root/
 ├── public/                # Static assets (models, textures, icons)
 ├── src/
@@ -52,10 +58,12 @@ root/
 ├── package.json
 ├── next.config.mjs
 └── README.md
+```
 
 ## 📜 License
-
+```bash
 This project is licensed under the MIT License.
 See the LICENSE -> file for more details.
+```
 
 Created with ❤️ by aslamx
